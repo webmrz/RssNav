@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "RssNav",
+  "version": "1.0.0",
+  "description": "A modern navigation extension",
+  "permissions": [
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://suggestion.baidu.com/*",
+    "https://api.bing.com/*",
+    "https://suggestqueries.google.com/*",
+    "https://www.baidu.com/*",
+    "https://www.bing.com/*",
+    "https://www.google.com/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; object-src 'self'"
+  },
+  "web_accessible_resources": [{
+    "resources": ["assets/*", "lib/*", "background.js"],
+    "matches": ["<all_urls>"]
+  }]
+} 
