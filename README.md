@@ -20,7 +20,7 @@
 
 <div align="center">
   <img src="screenshots/settings-page.png" alt="设置页面" width="600">
-  <img src="screenshots/settings-page2.png" alt="设置页面" width="600"> 
+  <img src="screenshots/settings-page1.png" alt="设置页面" width="600"> 
   <p>设置页面</p>
 </div>
 
