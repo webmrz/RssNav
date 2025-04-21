@@ -132,3 +132,7 @@ pnpm type-check
 1. 打开 Chrome 扩展程序页面（chrome://extensions/）
 2. 开启开发者模式
 3. 加载已解压的扩展程序
+
+## 鸣谢
+本站部分样式及功能参考自 [imsyy Snav](https://github.com/imsyy/SNav)
+
