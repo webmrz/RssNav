@@ -14,7 +14,7 @@
 ## 🖼️ 截图展示
 
 <div align="center">
-  <img src="screenshots/002.png" alt="首页" width="400">
+  <img src="screenshots/002.png" alt="首页" width="600">
   <p>首页</p>
 </div>
 
